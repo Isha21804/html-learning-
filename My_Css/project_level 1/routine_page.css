@@ -1,0 +1,18 @@
+.morning ul{
+    color: darkorchid;
+}
+.afternoon ul{
+    color: darkcyan;
+}
+#evening ul{
+    color: deeppink;
+}
+h3{
+    color: maroon;
+}
+h1{
+    color :darkolivegreen;
+}
+body{
+    background-color:antiquewhite;
+}

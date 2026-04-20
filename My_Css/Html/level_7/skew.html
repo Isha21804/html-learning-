@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.skew{
+        height: 50px;
+        width: 50px;
+        margin: 80px;
+        padding: 5px;
+        border: 2px solid black;
+        transition: all 2s ease;}
+        #box1{
+        background-color: cornflowerblue;
+        }
+        #box1:hover{
+        transform: skew(45deg);
+        }
+        #box2{
+        background-color:darkturquoise;
+        }
+        #box2:hover{
+        transform: skew(90deg);
+        }
+        </style>
+<body>
+    <div id="box1"class="skew">skew</div>
+    <div id="box2"class="skew">skew</div>
+</body>
+</html>
